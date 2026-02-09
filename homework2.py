@@ -1,10 +1,34 @@
-name = "viktor"
-sname = "maisuradze fier"
-age = 12
-country = "Georgia"
-city = "Tbilisi"
-print("name:" ,name, "/ "
-      "second name:" ,sname, "/ "
-      "age:" ,age, "/ "
-      "country:" ,country, "/ "
-      "city:" ,city)
+# 1)
+#განსხვავება / და //-ს შორის არის ის, რომ როდესაც რიცხვი იყოფა სიმბოლოზე /
+#  ის გამოჩნდება როგორც float განსხვავებით // რომელიც გამოჩნდება როგორც int
+
+
+# 2)
+a = 94
+b = 5
+add = a + b 
+sub = a - b
+mul = a * b
+div = a / b # float
+div2 = a // b # int
+print (add, "  ",sub, "  ",mul, "  ",div, "  ",div2)
+
+print(" ") # design
+
+# 3)
+price = 49
+print(price -12)
+
+print(" ") # design
+
+# 4)
+score = 100
+score = 50 * 35
+print(score)
+
+print(" ") # design
+
+# 5)
+# ეს იმიტომ ხდება რომ
+# კომპიუტერები და კომპილატორები კოდს ზემოდან ქვემოთ კითხულობენ და ასრულებენ,
+# რაც ამ მაგალითშია ნაჩვენებია.
